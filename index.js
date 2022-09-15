@@ -9,7 +9,7 @@ const authConfig = require("./auth_config.json");
 const app = express();
 
 const port = process.env.PORT || 3001;
-const appOrigin = process.env.APP_ORIGIN || `http://localhost:3000`;
+const appOrigin = process.env.APP_ORIGIN || `https://auth0-react-sample.herokuapp.com`;
 
 if (
   !authConfig.domain ||
