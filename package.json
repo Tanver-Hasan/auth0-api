@@ -1,0 +1,33 @@
+{
+  "name": "auth-node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-jwt": "^6.0.0",
+    "helmet": "^3.18.0",
+    "highlight.js": "^10.0.3",
+    "jwks-rsa": "^1.4.0",
+    "morgan": "^1.9.1",
+    "npm-run-all": "^4.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanver-Hasan/auth0-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tanver-Hasan/auth0-api/issues"
+  },
+  "homepage": "https://github.com/Tanver-Hasan/auth0-api#readme"
+}
